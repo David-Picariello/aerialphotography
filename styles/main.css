@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 0em;
+    font-family: 'Dela Gothic One', cursive;
+    background: silver;
+
+
+}
+
+body img {
+    width: 100%;
+}
+
+html {
+    background-image: url("../images/backround.jpeg");
+    background-attachment: fixed;
+}
+
+header {
+    border-bottom: 5px solid black;
+    background-image: url("../images/backround.jpeg");
+    margin-bottom: 0.1em;
+    
+    display: flex;
+    align-items: center;
+
+    
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+header h2 {
+    font-size: 350%;
+    text-shadow: 3px 3px white;
+
+}
+#logoimage {
+    padding: .2em;
+    max-width: 120px;
+    width: 100%;
+    margin: .5em;
+
+}
+
+div {
+    padding: 0em;
+}
+.column1 {
+    flex: 100%;
+    max-width: 2000px;
+    padding: 0 4px;
+  }
+  
+ 
+    
+  
+.ocean {
+    
+   
+    display: flex;
+    align-items: center;
+ 
+
+
+}
+.ocean div {
+
+   
+    color: ghostwhite;
+    padding: 0 7em;
+    font-size: 300%;
+    text-shadow: 3px 3px black;
+    
+}
+
+
+
+
+
+
+main {
+    font-size: 130%;
+    text-align: center;
+    
+}
+main h3{
+    font-size: 200%;
+    text-shadow: 2px 2px white;
+}
+
+
+
+
+
+footer {
+    border-top: 3px solid silver;
+    background-color: grey;
+    padding: 2em 0;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+
+
+
+
+}
+
+footer p {
+    font-size: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 2em 0em;
+    
+
+    
+}
+footer img{
+    max-width: 170px;
+    max-height: 100px;
+    width: 100%;
+    border-radius: 15px;
+    border: 3px outset silver;
+   
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    header h2{
+        text-align: center;
+        font-size: 200%;
+    }
+    #logoimage {
+        padding: .2em;
+        max-width: 90px;
+        width: 100%;
+        margin: .5em;
+    }
+    .ocean div {
+        color: ghostwhite;
+        padding: 0 7em;
+        font-size: 150%;
+        text-shadow: 3px 3px black;
+        
+    }
+    div{
+        padding: 0;
+    }
+    h1{
+        font-size: 150%;
+    }
+    
+ 
+}
